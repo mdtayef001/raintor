@@ -5,12 +5,12 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <>
-      <header className="bg-[url(/hero.png)]">
+      <header className="bg-[url(/hero.png)] bg-no-repeat bg-cover bg-center font-display">
         <Navbar />
         <Hero />
       </header>
-      <main></main>
-      <footer>
+      <main className="font-display"></main>
+      <footer className="font-display">
         <Footer />
       </footer>
     </>
